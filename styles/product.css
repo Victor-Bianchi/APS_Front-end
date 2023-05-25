@@ -1,0 +1,141 @@
+section.box-buy {
+    margin: 30px 0px;
+}
+
+div.dados {
+    width: 30%;
+}
+
+div.buy-wrap {
+    margin-top: 40px;
+}
+
+h1.titulo {
+    font-size: 1.7rem;
+}
+
+p.price {
+    font-size: 1.4rem;
+    margin: 20px 0px 10px 0px;
+}
+
+p.cardCondicional {
+    color: #a0a0a0;
+}
+
+div.size {
+    margin: 20px 0px;
+}
+
+div.size-single {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #ececec;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+div.image {
+    width: 100%;
+    max-width: 50%;
+}
+
+div.image img {
+    width: 100%;
+}
+
+span.bread {
+    text-align: left;
+}
+
+div.frete {
+    margin: 50px 0px 50px 0px;
+}
+
+p.Sec-Title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+
+div.frete input[type="text"] {
+    width: 100%;
+    padding: 20px 10px;
+    border: 1px solid black;
+}
+
+div.frete input[type="text"]:focus {
+    outline: none;
+}
+
+button {
+    background-color: var(--azul);
+    color: white;
+    width: 100%;
+    padding: 20px 0px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+div.size-single:hover {
+    background-color: var(--azul);
+    color: white;
+}
+
+div.wrap-input {
+    width: 100%;
+}
+
+div.form {
+    width: 70%;
+}
+
+div.btn {
+    width: 30%;
+}
+
+div.btn input {
+    padding: 20px 10px;
+    cursor: pointer;
+    background-color: var(--azul);
+    color: white;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+  }
+  th {
+    background-color: #f2f2f2;
+    height: 120px;
+    width: 60px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: normal;
+    transform: rotate(-90deg);
+    white-space: nowrap;
+  }
+  th:first-child {
+    transform: none;
+  }
+  td {
+    padding: 8px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid #ddd;
+  }
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  tr:hover {
+    background-color: #f5f5f5;
+  }
+  .highlight {
+    background-color: #ffc;
+  }
